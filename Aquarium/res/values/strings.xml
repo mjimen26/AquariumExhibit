@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These are the generic names for the app -->
+    <string name="app_name">Aquarium</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- These are the strings for Tanks -->
+    <string name="living_reef">Living Reef</string>
+    <string name="artificial_reef">Artificial Reef</string>
+    <string name="shark_tank">Cat Shark and Dogfish</string>
+    <string name="poison_tank">Poisonous Creatures</string>
+    <string name="lobster_tank">Lobster Tank</string>
+    <string name="school_tank">Schooling Reef</string>
+    <string name="cave_tank">Blind Cave Tank</string>
+
+    <!-- These are strings for individual fish -->
+    <string name="catshark">Banded Catshark</string>
+    <string name="catshark_desc">This is a Banded Catshark</string>
+    <string name="dogfish">Smooth Dogfish</string>
+    <string name="dogfish_desc">This is a Smooth Dogfish</string>
+    <string name="spinylobster">Florida Spiny Lobster</string>
+    <string name="spinylobster_desc">This is a Florida Spiny Lobster</string>
+    <string name="slipperlobster">Ridged Slipper Lobster</string>
+    <string name="slipperlobster_desc">This is a Ridged Slipper Lobster</string>
+    <string name="scorpionfish">Spotted Scorpionfish</string>
+    <string name="scorpionfish_desc">This is a Spotted Scorpionfish</string>
+    <string name="toadfish">Gulf Toadfish</string>
+    <string name="toadfish_desc">This is a Gulf Toadfish</string>
+    <string name="balloonfish">Balloonfish</string>
+    <string name="balloonfish_desc">This is a Balloonfish</string>
+    <string name="burrfish">Striped Burrfish</string>
+    <string name="burrfish_desc">This is a Striped Burrfish</string>
+    <string name="horseconch">Florida Horse Conch</string>
+    <string name="horseconch_desc">This is a Florida Horse Conch</string>
+    <string name="lookdowns">Lookdowns</string>
+    <string name="lookdown_desc">These are Lookdowns</string>
+    <string name="highhats">High Hat Fish</string>
+    <string name="highhats_desc">This is a High Hat Fish</string>
+    <string name="blindcave">Blind Cavefish</string>
+    <string name="blindcave_desc">This is a Blind Cavefish</string>
+    <string name="purplereef">Purple Reeffish</string>
+    <string name="purplereef_desc">This is a Purple Reeffish</string>
+
+    <!-- These are for the living reef -->
+    <string name="bluetang">Blue Tang</string>
+    <string name="bluetang_desc">This is a Blue Tang</string>
+    <string name="doctorfish">Doctor Fish</string>
+    <string name="doctorfish_desc">This is a Doctor Fish</string>
+    <string name="hawkfish">Red-Spotted Hawkfish</string>
+    <string name="hawkfish_desc">This is a Red-Spotted Hawkfish</string>
+    <string name="porkfish">Porkfish</string>
+    <string name="porkfish_desc">This is a Porkfish</string>
+    <string name="flamefish">Flamefish</string>
+    <string name="flamefish_desc">This is a Flamefish</string>
+    <string name="angelfish">Pygmy Angelfish</string>
+    <string name="angelfish_desc">The Pygmy Angelfish is also called the Cherubfish, 
+        Cherub Angelfish, or Atlantic Pygmy Angelfish. It is a brilliant 
+        sapphire-blue with orange highlights to the face.\n\n
+		The Pygmy Angelfish requires a 55 gallon or larger tank with numerous 
+		hiding places and live rock for grazing on microalgae. It may nip at 
+		large-polyped stony corals and clam mantles.\n\n
+		The Pygmy Angelfish is an aggressive little angelfish, so it is best to 
+		never have more than one male per tank, since they may fight to the death. 
+		A breeding pair may be kept, and the Pygmy Angelfish has been bred in an 
+		aquarium with success.\n\n
+		The diet of the Pygmy Angelfish should include Spirulina, marine algae, 
+		high-quality angelfish preparations, mysis or frozen shrimp, and other meaty 
+		items. Feed three times daily. \n\n\n</string>
+    <string name="fairybass">Fairy Basslet</string>
+    <string name="fairybass_desc">This is a Fairy Basslet</string>
+    <string name="slipperydick">Slippery Dick</string>
+    <string name="slipperydick_desc">This is a Slipper Dick</string>
+    <string name="yellowhead">Yellowhead Wrasse</string>
+    <string name="yellowhead_desc">This is a Yellowhead Wrasse</string>
+    <string name="turbosnail">Turbo Snail</string>
+    <string name="turbosnail_desc">This is a Turbo Snail</string>
+    <string name="pincushion">Pincushion Urchin</string>
+    <string name="pincushion_desc">This is a Pincushion Urchin</string>
+    <string name="redstar">Red Serpent Star</string>
+    <string name="redstar_desc">This is a Red Serpent Star</string>
+    <string name="orangeback">Orangeback Bass</string>
+    <string name="orangeback_desc">This is an Orangeback Bass</string>
+    <string name="saddlebass">Saddle Bass</string>
+    <string name="saddlebass_desc">This is a Saddle Bass</string>
+    <string name="harlequin">Harlequin Bass</string>
+    <string name="harlequin_desc">This is a Harlequin Bass</string>
+    <string name="bluehead">Bluehead Wrasse</string>
+    <string name="bluehead_desc">This is a Bluehead Wrasse</string>
+
+    <!-- These are for the artificial reef -->
+    <string name="sergeantmajor">Sergeant Major</string>
+    <string name="sergeantmajor_desc">This is a Sergeant Major</string>
+    <string name="shogfish">Spanish Hogfish</string>
+    <string name="shogfish_desc">This is a Spanish Hogfish</string>
+    <string name="chogfish">Cuban Hogfish</string>
+    <string name="chogfish_desc">This is a Cuban Hogfish</string>
+    <string name="chromis">Blue Chromis</string>
+    <string name="chromis_desc">This is a Blue Chromis</string>
+    <string name="clownwrasse">Clown Wrasse</string>
+    <string name="clownwrasse_desc">This is a Clown Wrasse</string>
+    <string name="damsel">Bi-color Damsel</string>
+    <string name="damsel_desc">This is a Bi-color Damsel</string>
+
+    <!-- These are for the fragments and activites -->
+    <string name="title_activity_shark_tank">Shark Tank</string>
+    <string name="title_activity_lobster_tank">Lobster Tank</string>
+    <string name="title_activity_poison_tank">Poisonous Creatures</string>
+    <string name="title_activity_school_tank">Schooling Reef</string>
+    <string name="title_activity_living_reef">Living Reef</string>
+    <string name="title_activity_artificial_reef">Artificial Reef</string>
+    <string name="title_activity_blind_cave_tank">Cave Tank</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/slipperlobster"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/slipperlobster_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/slipperlobster"
+        android:src="@drawable/slipper" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="223dp"
+        android:layout_gravity="center"
+        android:fillViewport="true" >
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/slipperlobster_desc"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</LinearLayout>
