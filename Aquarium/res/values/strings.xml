@@ -102,6 +102,8 @@
     <string name="clownwrasse_desc">This is a Clown Wrasse</string>
     <string name="damsel">Bi-color Damsel</string>
     <string name="damsel_desc">This is a Bi-color Damsel</string>
+    
+    <!-- These are for the corals -->
 
     <!-- These are for the fragments and activites -->
     <string name="title_activity_shark_tank">Shark Tank</string>
