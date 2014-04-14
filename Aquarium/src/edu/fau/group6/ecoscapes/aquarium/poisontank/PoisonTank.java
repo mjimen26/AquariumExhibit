@@ -1,11 +1,16 @@
 package edu.fau.group6.ecoscapes.aquarium.poisontank;
 
 import android.app.ActionBar;
+import android.app.AlertDialog;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.View;
+import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
 import edu.fau.group6.ecoscapes.aquarium.R;
 import edu.fau.group6.ecoscapes.aquarium.adapters.PoisonViewAdapter;
 
@@ -15,6 +20,8 @@ public class PoisonTank extends FragmentActivity implements
 	private ViewPager viewPager;
 	private PoisonViewAdapter mAdapter;
 	private ActionBar actionBar;
+	Context context = this;
+	
 	// Tab titles
 	private String[] tabs = { "Scorpionfish", "Balloonfish", "Toad Fish", "Striped Burrfish", "Horse Conch" };
 
@@ -70,6 +77,45 @@ public class PoisonTank extends FragmentActivity implements
 
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+	}
+	
+	public void onClick(View v) {
+		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+				context);
+
+		// Set the title
+		alertDialogBuilder.setTitle("Did You Know?");
+
+		alertDialogBuilder.setMessage(fishSwitcher(v)).setCancelable(false)
+				.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						dialog.cancel();
+					}
+				});
+		
+		AlertDialog alertDialog = alertDialogBuilder.create();
+		alertDialog.show();
+
+	}
+
+	public String fishSwitcher(View v) {
+		View view = v;
+
+		switch (view.getId()) {
+
+		case R.id.scorpionfish_image:
+			return FishSwitcher.poisonTank[4];
+		case R.id.balloonfish_image:
+			return FishSwitcher.poisonTank[0];
+		case R.id.toadfish_image:
+			return FishSwitcher.poisonTank[2];
+		case R.id.burrfish_image:
+			return FishSwitcher.poisonTank[1];
+		case R.id.horseconch_image:
+			return FishSwitcher.poisonTank[3];
+		}
+
+		return "No such Fish";
 	}
 
 }

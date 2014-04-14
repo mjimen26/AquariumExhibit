@@ -1,11 +1,16 @@
 package edu.fau.group6.ecoscapes.aquarium.schooltank;
 
 import android.app.ActionBar;
+import android.app.AlertDialog;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.View;
+import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
 import edu.fau.group6.ecoscapes.aquarium.R;
 import edu.fau.group6.ecoscapes.aquarium.adapters.SchoolViewAdapter;
 
@@ -15,8 +20,10 @@ public class SchoolTank extends FragmentActivity implements
 	private ViewPager viewPager;
 	private SchoolViewAdapter mAdapter;
 	private ActionBar actionBar;
+	Context context = this;
+	
 	// Tab titles
-	private String[] tabs = { "Lookdowns", "High Hats", "Purple Reeffish"};
+	private String[] tabs = { "Lookdowns", "High Hats", "Reeffish"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -72,4 +79,38 @@ public class SchoolTank extends FragmentActivity implements
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
 	}
 
+	public void onClick(View v) {
+		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+				context);
+
+		// Set the title
+		alertDialogBuilder.setTitle("Did You Know?");
+
+		alertDialogBuilder.setMessage(fishSwitcher(v)).setCancelable(false)
+				.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						dialog.cancel();
+					}
+				});
+		
+		AlertDialog alertDialog = alertDialogBuilder.create();
+		alertDialog.show();
+
+	}
+
+	public String fishSwitcher(View v) {
+		View view = v;
+
+		switch (view.getId()) {
+
+		case R.id.lookdowns_image:
+			return FishSwitcher.otherTank[2];
+		case R.id.highhats_image:
+			return FishSwitcher.otherTank[3];
+		case R.id.purplereef_image:
+			return FishSwitcher.otherTank[1];
+		}
+
+		return "No such Fish";
+	}
 }

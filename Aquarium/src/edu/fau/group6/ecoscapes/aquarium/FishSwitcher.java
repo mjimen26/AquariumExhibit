@@ -29,5 +29,26 @@ public class FishSwitcher {
 		"-As a juvenile, the Clown Wrasse associates well with other fishes in the aquarium. But as it grows, it becomes very aggressive and destructive",
 		"-Unlike the other species of its family who eats algae, the Bi-color Damselfish likes to eat plankton"
 	};
-
+	
+	public static String[] sharkTank = {
+		"-The Banded Catshark is also commonly known as Brownbanded Bamboo Shark because of the pattern that appears on their bodies",
+		"-The Smooth Dogfish whas an ability to change their color between light and dark to provide camouflage against predators",
+		"-In Florida, Spiny Lobster fishing is considered as a sport. However, there are certain dates and regulation that must be followed in order to participate in the event, such as a measuring device and a saltwater fishing license."
+	};
+	
+	public static String[] poisonTank = {
+		"-When threatened, the Balloonfish swallows water or air to puff themselves up three times its normal size",
+		"-The Striped Burrfish swims by pumping water from its gill openings!",
+		"-The Gulf Toadfish are edible but undesirable, due to its poor quality. A few poisoning-related cases are linked with the Gulf Toadfish",
+		"-The Florida Horse Conch has been the state's official shell since 1969\n\n-The Florida Horse Conch is the largest Gastropod in America",
+		"-Despite their poisonous nature, a wound from the Spotted Scorpionfish are painful but not fatal for humans"
+	};
+	
+	public static String[] otherTank={
+		"-The Slipper Lobster has several other names in several different countries:\n\n-Generally, they are also called Locust Lobster, Fan Lobster, and Mitten Lobster.\n\n-In Australia, they are also called Flapjack, Flat Lobster, and Sandbug",
+		"-An adult Purple Reeffish is observed to have a grayish shade on scales around its dorsal fins",
+		"-Lookdowns will rarely be seen swimming alone. They are always swimming in schools turning back and forth",
+		"-The High Hats got their name from its resemblance to a part of a drumset called the hi-hat",
+		"-The Blind Cave Fish excites some marine biologists as they can be observed to explain and unveil crptic genetic variations in animals"
+	};
 }

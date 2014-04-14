@@ -19,7 +19,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/lookdowns"
-        android:src="@drawable/lookdown" />
+        android:src="@drawable/lookdown"
+        android:onClick="onClick" />
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -32,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/lookdowns"
+            android:text="@string/lookdown_desc"
             android:textSize="20sp" />
     </ScrollView>
 

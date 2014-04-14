@@ -2,10 +2,15 @@ package edu.fau.group6.ecoscapes.aquarium.blindcave;
 
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
+import android.app.AlertDialog;
 import android.app.FragmentTransaction;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.View;
+import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
 import edu.fau.group6.ecoscapes.aquarium.R;
 import edu.fau.group6.ecoscapes.aquarium.adapters.BlindCaveViewAdapter;
 
@@ -15,6 +20,7 @@ public class BlindCaveTank extends FragmentActivity implements
 	private ViewPager viewPager;
 	private BlindCaveViewAdapter mAdapter;
 	private ActionBar actionBar;
+	Context context = this;
 	// Tab titles
 	private String[] tabs = { "Blind Cavefish" };
 
@@ -70,6 +76,27 @@ public class BlindCaveTank extends FragmentActivity implements
 
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+	}
+	
+	public void onClick(View v) {
+		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+				context);
+
+		// Set the title
+		alertDialogBuilder.setTitle("Did You Know?");
+
+		alertDialogBuilder
+			.setMessage(FishSwitcher.otherTank[4])
+			.setCancelable(false)	
+			.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						dialog.cancel();
+					}
+				});
+		
+		AlertDialog alertDialog = alertDialogBuilder.create();
+		alertDialog.show();
+
 	}
 
 }

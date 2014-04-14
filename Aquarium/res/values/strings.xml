@@ -17,31 +17,106 @@
 
     <!-- These are strings for individual fish -->
     <string name="catshark">Banded Catshark</string>
-    <string name="catshark_desc">This is a Banded Catshark</string>
+    <string name="catshark_desc">The Banded Catfish is a ground shark that lives mostly in the 
+        Indo-Pacific waters, from Japan to Australia. They got their name from their barbels
+        which look like cat whiskers. They can be distinguished by the wide black stripes that
+        appear on their bodies, sometimes with visible brown spots in between as their grow
+        bigger. \n\n
+        The Banded Catshark needs to be in a very large aquarium with sand substrate because
+        it likes to stay in the bottom. It mostly feeds on small crustaceans, mussels, and squid.</string>
     <string name="dogfish">Smooth Dogfish</string>
-    <string name="dogfish_desc">This is a Smooth Dogfish</string>
+    <string name="dogfish_desc">The Smooth Dogfish is a shark within the family of hound sharks.
+        They are gray in color, sometimes brown with shades of yellow. They can grow up to about 
+        5 feet in length and matures very fast. The female Dogfish can live up to 16 years, but the 
+        males are only up to 10 years.\n\n
+        The Smooth Dogfish is also called Dusky Smooth-Hound because it is a cunning predator who
+        feeds on large crustaceans like shrimps, crabs, and even lobsters. They have flat, blunt teeth
+        which are perfect for crushing hard shells of their prey.\n\n</string>
     <string name="spinylobster">Florida Spiny Lobster</string>
-    <string name="spinylobster_desc">This is a Florida Spiny Lobster</string>
+    <string name="spinylobster_desc">The Florida Spiny Lobster is also called the Caribbean Spiny Lobster.
+        They inhabit the reefs and groves of the western Atlantic Ocean. As its name suggest, this
+        lobster\'s body is covered with spines, with two huge ones sticking above their eyestalks.
+        Another ineteresing fact is that they have no claws or pincers.\n\n
+        The Florida Spiny Lobster\'s diet includes mollusks, sea vegetation, and dead fish. On the other
+        hand, they are very vulnerable to predators like sharks and octopuses. Moreover, they are a very
+        common seafood item. During the lobster season, they can be found everywhere in the Bahamas
+        and the Florida Keys.\n\n</string>
     <string name="slipperlobster">Ridged Slipper Lobster</string>
-    <string name="slipperlobster_desc">This is a Ridged Slipper Lobster</string>
+    <string name="slipperlobster_desc">The Slipper Lobster is a crustacean that inhabits the warm waters
+        of the world. The Slipper Lobster is not a real lobster, but are closely related to Spiny
+        Lobsters. They are easily recognizable with the two large plates that extend beyond their 
+        heads which are one of its antennaes. The other antennae is in between acting as an 
+        environment sensor. \n\n
+        The Ridged Slipper Lobster got its name because of their highly segmented body. There are six
+        segments on their head, six on the abdomen, and eight in the thorax. Their diet includes
+        mollusks, oysters, and various echinoderms.\n\n </string>
     <string name="scorpionfish">Spotted Scorpionfish</string>
-    <string name="scorpionfish_desc">This is a Spotted Scorpionfish</string>
+    <string name="scorpionfish_desc">The Scorpion Fish got its name because of its method of catching food.
+        It injects poison through their dorsal fins upon punctiring their prey. Despite their poisonous 
+        nature, there are several predators that feed on them including large snappers and morray eels.\n\n
+        Scorpion Fishes are found in the Atlantic waters generally near rocks and crevices where they
+        wait to ambush an unwary prey. They use camouflage to perfectly hide themselves too. They are
+        often found stationary and motionless, even growing algae on their scales sometimes.\n\n </string>
     <string name="toadfish">Gulf Toadfish</string>
-    <string name="toadfish_desc">This is a Gulf Toadfish</string>
+    <string name="toadfish_desc">The Gulf Toadfish are species of toadfish native to the Gulf of
+        Mexico. They prefer to hang out around shallow water with most baitfish, that is why they are
+        often caught in the hooks of anglers. In addition, they will eat chunks of baits especially
+        if it is squid or frozen fish.\n\n
+        In general, the Guld Toadfish is covered in a slimy substance which makes them unlikable
+        by anglers. The Guld Toadfish itself is not very toxic but their slimy skin can cause
+        terrible physical irritation.\n\n </string>
     <string name="balloonfish">Balloonfish</string>
-    <string name="balloonfish_desc">This is a Balloonfish</string>
+    <string name="balloonfish_desc">The Balloonfish is also called Porcupine Fish which are native in
+        several parts of the world including the western Atlantic from Florida to Brazil, and all over
+        Asia and northern Arustralia. These fishes are related to the Burrfish and there are about 19
+        different species of Balloonfish.\n\n
+        The Porcupine Fish is recognizable by its spines which are very visible when they are inflated.
+        When relaxed, the spines are laid back and ay flat on their bodies. The spines are erect and 
+        more visible when they puff themselves to ward off potential predators and enemies.\n\n</string>
     <string name="burrfish">Striped Burrfish</string>
-    <string name="burrfish_desc">This is a Striped Burrfish</string>
+    <string name="burrfish_desc">The Striped Burrfish is also commonly knkown as the Spiny Boxfish. It
+        is closely related to the Balloonfish, but has shorter spines and a spherical body. It also
+        has several lateral stripes running across its body with a few black spots around the dorsal fin 
+        another below the pectoral fin.\n\n
+        The mouth of the Burrfish resembles almost a beak with the way its jaw is oriented. They are
+        mostly found in the tropics along the Atlantic Coast. Their diet consists of small fish,
+        barnacles, snails, and other small crustaceans.\n\n</string>
     <string name="horseconch">Florida Horse Conch</string>
-    <string name="horseconch_desc">This is a Florida Horse Conch</string>
+    <string name="horseconch_desc">The Florida Horse Conch is a very large tropical sea snail, which is 
+        also called, scientifically, as Triplofusus Giganteus. They are predatory sea snails closely
+        related to spindle snails and tulip snails. \n\n
+        The Florida Horse Conch is typically orange in color, with a shell that can reach up to 24 inches.
+        They spend most of their time in the sand or mud flats. They feed on other larger conch species such
+        as the Lightning Whelk and Queen Conch, and sometimes even considered cannibalistic as they
+        eat hermit crabs in aquariums.\n\n</string>
     <string name="lookdowns">Lookdowns</string>
-    <string name="lookdown_desc">These are Lookdowns</string>
+    <string name="lookdown_desc">Lookdown fishes are recognizable with their unusual body shape. It is 
+        very thin and flat with shimmering blue-gray scales. They also have elongated dorsal and anal fins
+        resembling that of a scythe. It also has a weird face with its mouth set low and its eyes high.\n\n
+        Lookdowns are found on west Atlantic waters, ranging from Canada down to Florida, even further 
+        down up to Uruguay. These are not commercially important but they are considered as a game fish
+        for anglers and they are very unique addition to any aquarium.\n\n</string>
     <string name="highhats">High Hat Fish</string>
-    <string name="highhats_desc">This is a High Hat Fish</string>
+    <string name="highhats_desc">The High Hat Fish is a small, peaceful fish that can grow up to nine
+        inches. Theie body is usually white with dark lateral stripes with an erect dorsal fin. They are
+        mostly found in the Atlantic waters and the Gulf of Mexico.\n\n
+        The diet of the High Hats include black worms and brine shrimps, sometimes meaty food. They would
+        search the sandy bottom of the seafloor or the aquarium to look for worms and small crustaceans.\n\n</string>	
     <string name="blindcave">Blind Cavefish</string>
-    <string name="blindcave_desc">This is a Blind Cavefish</string>
+    <string name="blindcave_desc">The Blind Cave Fish is also called the Mexican Tetra because it is mostly 
+        found in deep Mexican caves and in the dark, warm waters of Central America. They can grow up to 
+        about 3.5 inches long whiel some grow another inch bigger. They have no pigment in their scales, 
+        and so they appear pink-ish in color.\n\n 
+        Contrary to its name, the Blind Cave Fish are actually born with normal eyes, which then 
+        deteriorates rapidly as they grow older. Their vision deteriorates to the point that that even 
+        lose their eyes. They can move sensing water pressure though.\n\n</string>
     <string name="purplereef">Purple Reeffish</string>
-    <string name="purplereef_desc">This is a Purple Reeffish</string>
+    <string name="purplereef_desc">The Purple Reef Fish as its name suggests, is coveered in shimmering
+        violet or purple color. They are one of the species of the Damselfish family, also often called
+        Indigo Damselfish at times. \n\n
+        They inhabit the waters of the Atlantic as well as the Gulf of Mexico. Some sightings extend as
+        far as the shores of Mexico and Brazil. They like to hang out in deep, sloped reefs where the male
+        is usually found guarding the eggs and hatchlings.\n\n</string>
 
     <!-- These are for the living reef -->
     <string name="bluetang">Blue Tang</string>
@@ -49,7 +124,7 @@
         inshore rocky areas. they can be found in waters ranging from the Northeast United 
         States to the reefs of Brazil. \n\n
         At its early stages, the Blue Tang are yellow with blue spots around its eyes.
-        As they mature, The Blue Tang\'\s color becomes vibrant blue with bold black markings. 
+        As they mature, The Blue Tang\'s color becomes vibrant blue with bold black markings. 
         The black shade begins at the eyes down to its dorsal fins. It continues down to its tail 
         where it circles back above the pectoral fin to create a unique pattern.\n\n
         The Blue Tang is known to have several other names. Some of which are Blue Doctor, Blue

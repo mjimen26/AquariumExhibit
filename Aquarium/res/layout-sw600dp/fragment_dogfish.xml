@@ -19,7 +19,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/dogfish"
-        android:src="@drawable/dogfish" />
+        android:src="@drawable/dogfish"
+        android:onClick="onClick" />
 
     <ScrollView
         android:layout_width="wrap_content"
