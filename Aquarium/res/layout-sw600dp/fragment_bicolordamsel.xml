@@ -19,7 +19,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/damsel"
-        android:src="@drawable/bicolordamsel" />
+        android:src="@drawable/bicolordamsel"
+        android:onClick="onClick" />
 
     <ScrollView
         android:layout_width="wrap_content"

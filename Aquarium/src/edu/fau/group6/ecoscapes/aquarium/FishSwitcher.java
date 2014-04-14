@@ -20,5 +20,14 @@ public class FishSwitcher {
 		"-The Harlequin Bass got its name from the harlequins, or performers often clothed in white with unique patterns of several colors",
 		"-The Bluehead Wrasse is recommended to be the last one added in an aquarium since it would eat smaller fish and harrass new fishes"
 	};
+	
+	public static String[] artificialReef = {
+		"-The Sergeant name got its name from the number of stripes on its body resembling the rank of a sergeant major in the military",
+		"-The Spanish Hogfish is advised to be placed in tank with only large fish inside since it will easily bully smaller fishes",
+		"-The Cuban Hogfish is semi-agressive and typically doesn't care about smaller fishes, but it could be a bother on feeding time",
+		"-A Blue Chromis that is taken care of very well can live up to 8 to 15 years in the aquarium",
+		"-As a juvenile, the Clown Wrasse associates well with other fishes in the aquarium. But as it grows, it becomes very aggressive and destructive",
+		"-Unlike the other species of its family who eats algae, the Bi-color Damselfish likes to eat plankton"
+	};
 
 }

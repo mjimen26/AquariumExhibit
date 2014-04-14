@@ -30,7 +30,7 @@ public class LivingReef extends FragmentActivity implements
 			"Blue Wrasse" };
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) { 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.viewpager);
 

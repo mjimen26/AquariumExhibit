@@ -13,7 +13,7 @@
         android:textSize="32sp" />
 
     <ImageView
-        android:id="@+id/angelfish_image"
+        android:id="@+id/doctorfish_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

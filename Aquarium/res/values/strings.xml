@@ -151,21 +151,47 @@
         western Atlantic Oceean. Like other wrasse species, the Bluehead Wrasse display varying colors 
         in different life stages. Juveniles usually are yellow with black marks along their side. Adult 
         wrasses develop a black-white-black pattern from its back down to its belly. The pattern separates its
-        yellowish body from its blue head.</string>
+        yellowish body from its blue head.\n\n</string>
 
     <!-- These are for the artificial reef -->
     <string name="sergeantmajor">Sergeant Major</string>
-    <string name="sergeantmajor_desc">This is a Sergeant Major</string>
+    <string name="sergeantmajor_desc">The Sergeant Major fish is a small round fish within the species of damselfish.
+        Its body color changes depending on the amount of light or depth it is in. When it is near the surface
+        of the water, it appears blue and its stripes are very visible. When it hides on the shadows, it appears
+        gray with blue hues, and sometimes, the stripes are not clearly seen.\n\n
+        The Seargeant Major can be found in the United States, from Rhode Island down to Florida. They are also 
+        seen in the coasts of east South America. They are also abundant in the shores of west Africa, especially 
+        near Cape Verde.\n\n</string>
     <string name="shogfish">Spanish Hogfish</string>
-    <string name="shogfish_desc">This is a Spanish Hogfish</string>
+    <string name="shogfish_desc">The Spanish Hogfish is a species of wrasse, typically found in the coasts of
+        the Atlantic. It is abundant in the Gulf of Mexico, the Caribbean, and southern Brazil. \n\n
+        The color of the Spanish Hogfish changes as it matures. As a juvenile, it is distinguishable with
+        a highlight of purple from its head to halfway of its body. the other half is covered with yellow or gold
+        scales. As they grow, their colors becomes brownish-black with a yellow belly.\n\n</string>
     <string name="chogfish">Cuban Hogfish</string>
-    <string name="chogfish_desc">This is a Cuban Hogfish</string>
+    <string name="chogfish_desc">Unlike its close relative, the Spanish Hogfish, the Cuban Hogfish retains its
+        vibrant color throughout its lifetime. It has an orange to pick coloration, with a distinct yellow shade
+        around its top tail fins. \n\n
+        The Cuban Hogfish is carnivorous, feeding on small crustaceans such as shrimps and snails. It can also feed 
+        on meaty foods like worms, and even shelled creatures such as mussels and clams.\n\n</string>
     <string name="chromis">Blue Chromis</string>
-    <string name="chromis_desc">This is a Blue Chromis</string>
+    <string name="chromis_desc">The Blue Chromis is a small, beautiful addition in any aquarium. It can be recognized 
+        with its cyan scales, sometimes light blue which slowly fades as green going down to its belly. When the 
+        male is prepared to breed, it changes its color to a pale yellow hue. \n\n
+        The Blue Chromis is native in western Atlantic Ocean. In aquariums, they are very quiet and non-aggressive. 
+        It mostly feeds on meaty foods and herbivore flakes.\n\n</string>
     <string name="clownwrasse">Clown Wrasse</string>
-    <string name="clownwrasse_desc">This is a Clown Wrasse</string>
-    <string name="damsel">Bi-color Damsel</string>
-    <string name="damsel_desc">This is a Bi-color Damsel</string>
+    <string name="clownwrasse_desc">Also known as a Red Coris Wrasse, the Clown Wrasse can be seen everywhere
+        in the reefs of the Pacific and Hawaiian seas. Its coloration changes as it grows. At a young age, it is
+        similar to a Clown Fish, with an orange body color accented with white spots outlined with balck marks. As 
+        it ages, it becomes dark orange with distinct lateral stripes consisting of blue spots.\n\n
+        The diet of the Clown Wrasse includes frozen shrimp, marine flakes, and marine pellet food. They are very 
+        small and can grow up to a maximum of 1.3 inches.\n\n</string>
+    <string name="damsel">Bi-color Damselfish</string>
+    <string name="damsel_desc">The Bi-color Damselfish is a bony fish that lives int he rocky reefs of Florida,
+        the Caribbean, and the Gulf of Mexico. It can grow to about 4 inches with large dorsal, pelvic and anal fins.\n\n
+        It can be distinguished by its color, mostly dark brown and gray, with a shade of white and yellow at the 
+        tail fins. A school of damnsel fish are very territorial and will fight to defend their rocky home.\n\n </string>
 
     <!-- These are for the corals -->
 
