@@ -19,7 +19,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/doctorfish"
-        android:src="@drawable/doctorfish" />
+        android:src="@drawable/doctorfish"
+        android:onClick="onClick" />
 
     <ScrollView
         android:layout_width="wrap_content"

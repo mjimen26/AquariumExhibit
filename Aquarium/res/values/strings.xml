@@ -45,49 +45,113 @@
 
     <!-- These are for the living reef -->
     <string name="bluetang">Blue Tang</string>
-    <string name="bluetang_desc">This is a Blue Tang</string>
-    <string name="doctorfish">Doctor Fish</string>
-    <string name="doctorfish_desc">This is a Doctor Fish</string>
+    <string name="bluetang_desc"> The Blue Tang lives in coastal waters, coral reefs, and 
+        inshore rocky areas. they can be found in waters ranging from the Northeast United 
+        States to the reefs of Brazil. \n\n
+        At its early stages, the Blue Tang are yellow with blue spots around its eyes.
+        As they mature, The Blue Tang\'\s color becomes vibrant blue with bold black markings. 
+        The black shade begins at the eyes down to its dorsal fins. It continues down to its tail 
+        where it circles back above the pectoral fin to create a unique pattern.\n\n
+        The Blue Tang is known to have several other names. Some of which are Blue Doctor, Blue
+ 		Barber, Palette Surgeonfish, and Regal Tang.\n\n\n</string>
+    <string name="doctorfish">Doctorfish Tang</string>
+    <string name="doctorfish_desc">The Doctorfish Tang is similar to the Blue Tang but without the vibrant
+        blue color. Instead, the Doctorfish Tang has gray-blue scales and light blue fins. The Doctorfish 
+        gets its name from the "scalpels" located at their tail. \n\n
+        The Doctorfish Tang cn be found in the Atlantic Ocean and in some areas of west Africa. During 
+        the day, the Doctorfish Tang spends most of the time looking for algae and plant matter from rocks.
+        At night, the Doctorfish Tangs gather in a group to reproduce and spawn baby Tangs. \n\n\n</string>
     <string name="hawkfish">Red-Spotted Hawkfish</string>
-    <string name="hawkfish_desc">This is a Red-Spotted Hawkfish</string>
+    <string name="hawkfish_desc">The Red-Spotted Hawkfish has a white body covered with red spots mostly
+        on their head and their dorsal fins. Its body has stripes ranging from black to brown. \n\n
+        The Red-Spotted Hawkfish can be found in the waters of the Atlantic, especially in the reefs
+        of Florida and Texas. They can also be found in the Caribbean seas and Brazil. The Red-Spotted
+        Hawkfish likes rocky areas since they like to hide in crevices. They mostly feed on small
+        fishes and shrimp. \n\n\n</string>
     <string name="porkfish">Porkfish</string>
-    <string name="porkfish_desc">This is a Porkfish</string>
+    <string name="porkfish_desc">The Porkfish got its name because of its physical characteristics. It
+        has a blunt mouth and thick lips, and its also quite plump. Juvenile porkfishes have white
+        scales with yellow marks on its head, dorsal fins, and pelvic fins. Adult porkfishes, however,
+        has yellow stripes from its middle section down to its tail fins. \n\n
+        The Porkfish can be found in the waters of the Atlantic as well as the Gulf of Mexico. 
+        They are often compared to their closely related family, the Burrito Grunt which is found
+        in the Pacific.\n\n\n</string>
     <string name="flamefish">Flamefish</string>
-    <string name="flamefish_desc">This is a Flamefish</string>
+    <string name="flamefish_desc">As it name suggests, the Flamefish comes with a fiery red color
+        and black spots. They are found in the waters of the west Atlantic Ocean and in the Gulf of
+        Mexico. They can also be spotted in the coral reef of Brazil and the Caribbean. \n\n
+        The Flamefish can grow up to a maximum of 4.5 inches. They are very common in pet stores
+        and are great for new aquariums. They are also known to fight other fishes in groups, that is why
+        it is suggested to keep a limited number of Flamefish in one aquarium.\n\n\n</string>
     <string name="angelfish">Pygmy Angelfish</string>
-    <string name="angelfish_desc">The Pygmy Angelfish is also called the Cherubfish, 
-        Cherub Angelfish, or Atlantic Pygmy Angelfish. It is a brilliant 
-        sapphire-blue with orange highlights to the face.\n\n
-		The Pygmy Angelfish requires a 55 gallon or larger tank with numerous 
-		hiding places and live rock for grazing on microalgae. It may nip at 
-		large-polyped stony corals and clam mantles.\n\n
-		The Pygmy Angelfish is an aggressive little angelfish, so it is best to 
-		never have more than one male per tank, since they may fight to the death. 
-		A breeding pair may be kept, and the Pygmy Angelfish has been bred in an 
-		aquarium with success.\n\n
-		The diet of the Pygmy Angelfish should include Spirulina, marine algae, 
-		high-quality angelfish preparations, mysis or frozen shrimp, and other meaty 
-		items. Feed three times daily. \n\n\n</string>
+    <string name="angelfish_desc">The Pygmy Angelfish is also called the Cherubfish, Cherub Angelfish, 
+        or Atlantic Pygmy Angelfish. It is a brilliant sapphire-blue with orange highlights to the face.\n\n
+		The Pygmy Angelfish requires a 55 gallon or larger tank with numerous hiding places and live rock 
+		for grazing on microalgae. It may nip at large-polyped stony corals and clam mantles.\n\n
+		A breeding pair may be kept, and the Pygmy Angelfish has been bred in an aquarium with success.\n\n</string>
     <string name="fairybass">Fairy Basslet</string>
-    <string name="fairybass_desc">This is a Fairy Basslet</string>
+    <string name="fairybass_desc">The Fairy Basslet comes in a vibrant purple color with shades of yellow,
+        red, and orange. They like to stay within coral reefs of Florida and the Caribbean. \n\n
+        Although they can only grow up to a maximum of about three inches, Fairy Basslets will fight 
+        other fishes, including their own species, when their territory is threatened. They go hunting 
+        food in schools, looking for zooplanktons and smaller sea creatures. Usually, the male Basslet
+        guards the eggs against predators during the day.</string>
     <string name="slipperydick">Slippery Dick</string>
-    <string name="slipperydick_desc">This is a Slipper Dick</string>
+    <string name="slipperydick_desc">The Slippery Dick is native in the coasts of the Atlantic. They
+        are one of the wrasse species, and clad in white scales. They have a distinct later stripe from its 
+        head down to the tail, and another faint stripe below that. \n\n
+        Similar to all the wrasse species, the Slippery Dick has an ability to change their sex
+        depending on biological and environemental factors. These fishes can grow up to 14 inches in length.
+        They mostly feed on invertebrates such as crabs, sea urchins, and gastropods.\n\n\n </string>
     <string name="yellowhead">Yellowhead Wrasse</string>
-    <string name="yellowhead_desc">This is a Yellowhead Wrasse</string>
+    <string name="yellowhead_desc">The Yellowhead Wrasse is a common species of the wrasse family. They
+        are easily identified with their bright yellow color and a lateral blue stripe running from
+        their eyes down to the tail fins. Adult yellowhead wrasses change the color of the lower part 
+        of their body to brown or black.\n\n
+        The Yellowhead wrasse can be found in the Atlantic Ocean, Caribbean Sea, and the Gulf of Mexico.
+        They often feed on crabs, shrimps, and sea urchins. Like othre wrasse fishes, the Yellowhead wrasse
+        start off as a female and later turn into a male. Mature males are said to be protective, territorial,
+        and dominant during breeding season.\n\n</string>
     <string name="turbosnail">Turbo Snail</string>
-    <string name="turbosnail_desc">This is a Turbo Snail</string>
+    <string name="turbosnail_desc">The Turbo Snail is very popular in aquariums because they significantly 
+        reduce algae that form inside the tank. The Turbo Snail is also known as Turban, or Top Shell
+        Snail. They are native to the waters of California and Mexico.
+        For aquarium hobbyists, the Torbo Snail is very handy for cleaning up crevices and holes especially 
+        in huge aquariums.\n\n</string>
     <string name="pincushion">Pincushion Urchin</string>
-    <string name="pincushion_desc">This is a Pincushion Urchin</string>
+    <string name="pincushion_desc">The Pincushion Urchin is a type or urchin clad with hundreds of spines.
+        Its color ranges from mostly purple, red, and blue. During the daytime, they burrow themselves
+        in dark crevices and caves. After dark, they come out to eat algae. It is observed that the
+        Pincushion Urchin can roam around the entire tank just to graze on algae.</string>
     <string name="redstar">Red Serpent Star</string>
-    <string name="redstar_desc">This is a Red Serpent Star</string>
+    <string name="redstar_desc">Serpent Stars are often known as Brittle Starfish for their long, slender
+        arms and a compact body. Unlike other starfishes, the arms of serpent stars are covered with scales
+        not spines. \n\n
+        Red Serpent Stars also come in orange and maroon shades. As a result, they are often called Ruby 
+        Serpent Stars as well. They are common in the waters of the Caribbean. In the aquarium, their diet
+        can be supplemented with chopped meat, shrimp, or mussels.\n\n</string>
     <string name="orangeback">Orangeback Bass</string>
-    <string name="orangeback_desc">This is an Orangeback Bass</string>
+    <string name="orangeback_desc">The Orangeback Bass has some very unique patterns in its scales. Its upper 
+        body has a solid orange color, shaded with black as they mature. the lower half of their body comes in 
+        yellow hues with alternating patterns of medium-sized and huge spots. \n\n
+        The Orangeback Bass can be found in the Atlantic Ocean down to the northern waters of South America.
+        They like to swin in crevices between rocks and also along the coral reefs about 100 feet deep.</string>
     <string name="saddlebass">Saddle Bass</string>
-    <string name="saddlebass_desc">This is a Saddle Bass</string>
+    <string name="saddlebass_desc">The Saddle Bass are native to the Atlantic Waters, mainly in the Florida
+        Keys and the Yucatan in Mexico. They live in reefs no deeper than 180 meters. they can grow up to
+        a maximum of 10 centimeters.\n\n</string>
     <string name="harlequin">Harlequin Bass</string>
-    <string name="harlequin_desc">This is a Harlequin Bass</string>
+    <string name="harlequin_desc">Similar to other species on the Serranus family, the Harlequin Bass has a 
+        unique pattern in its scales. They are clad in white color, with varying black patterns scattered 
+        around its body. It also has a yellowish belly which makes it more attrative. \n\n
+        The Harlequin Bass is a very good beginner fish for new aquariums. It feeds on small crustaceans 
+        and shrimps. In addition, it can lso be fed frozen food and chopped meat.\n\n</string>
     <string name="bluehead">Bluehead Wrasse</string>
-    <string name="bluehead_desc">This is a Bluehead Wrasse</string>
+    <string name="bluehead_desc">The Bluehead Wrasse is a salwater fish found in the coral reefs of the 
+        western Atlantic Oceean. Like other wrasse species, the Bluehead Wrasse display varying colors 
+        in different life stages. Juveniles usually are yellow with black marks along their side. Adult 
+        wrasses develop a black-white-black pattern from its back down to its belly. The pattern separates its
+        yellowish body from its blue head.</string>
 
     <!-- These are for the artificial reef -->
     <string name="sergeantmajor">Sergeant Major</string>
@@ -102,8 +166,9 @@
     <string name="clownwrasse_desc">This is a Clown Wrasse</string>
     <string name="damsel">Bi-color Damsel</string>
     <string name="damsel_desc">This is a Bi-color Damsel</string>
-    
+
     <!-- These are for the corals -->
+
 
     <!-- These are for the fragments and activites -->
     <string name="title_activity_shark_tank">Shark Tank</string>
