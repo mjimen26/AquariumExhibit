@@ -4,14 +4,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="@string/flamefish"
-        android:textSize="32sp" />
-
     <ImageView
         android:id="@+id/flamefish_image"
         android:layout_width="wrap_content"
@@ -19,21 +11,33 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/flamefish"
+        android:onClick="onClick"
         android:src="@drawable/flamefish" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/flamefish"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="223dp"
         android:layout_gravity="center"
-        android:fillViewport="true" >
+        android:fillViewport="true"
+        android:background="#73000000" >
 
         <TextView
-            android:layout_width="345dp"
+            android:layout_width="286dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="@string/flamefish_desc"
-            android:textSize="20sp" />
+            android:textSize="15sp"
+            android:textColor="#FFFFFF" />
     </ScrollView>
 
 </LinearLayout>
