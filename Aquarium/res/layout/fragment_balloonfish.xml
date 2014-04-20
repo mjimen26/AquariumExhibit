@@ -15,20 +15,23 @@
         android:src="@drawable/balloonfish" />
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:background="#A60066cc"
         android:gravity="center"
         android:text="@string/balloonfish"
+        android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold" />
-
-    <ScrollView
+    
+	<ScrollView
         android:layout_width="wrap_content"
         android:layout_height="223dp"
         android:layout_gravity="center"
-        android:fillViewport="true"
-        android:background="#73000000" >
+        android:background="#73000000"
+        android:fillViewport="true" >
 
         <TextView
             android:layout_width="286dp"
@@ -36,8 +39,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="@string/balloonfish_desc"
-            android:textSize="15sp"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
     </ScrollView>
 
 </LinearLayout>

@@ -15,11 +15,14 @@
         android:src="@drawable/turbosnail" />
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:background="#A60066cc"
         android:gravity="center"
         android:text="@string/turbosnail"
+        android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold" />
 

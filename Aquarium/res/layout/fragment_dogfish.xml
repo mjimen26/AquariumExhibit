@@ -12,14 +12,16 @@
         android:layout_marginTop="20dp"
         android:contentDescription="@string/dogfish"
         android:onClick="onClick"
-        android:src="@drawable/dogfish" />
+        android:src="@drawable/dogfish_small" />
 
-    <TextView
-        android:layout_width="fill_parent"
+   <TextView
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#A60066cc"
         android:gravity="center"
         android:text="@string/dogfish"
+        android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold" />
 
