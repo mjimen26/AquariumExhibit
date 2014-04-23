@@ -1,6 +1,7 @@
 package edu.fau.group6.ecoscapes.aquarium;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,7 +26,6 @@ public class TankActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.tank_layout);
-
 	}
 
 	public void onClick(View v) {
@@ -36,12 +36,12 @@ public class TankActivity extends Activity {
 			Intent ex1 = new Intent(context, LivingReef.class);
 			startActivity(ex1);
 			break;
-			
+
 		case R.id.artifical_img: // Open Artificial Reef Tank
 			Intent ex2 = new Intent(context, ArtificialReef.class);
 			startActivity(ex2);
 			break;
-		
+
 		case R.id.shark_img: // Open Shark Tank
 			Intent ex3 = new Intent(context, SharkTank.class);
 			startActivity(ex3);
@@ -51,21 +51,30 @@ public class TankActivity extends Activity {
 			Intent ex4 = new Intent(context, LobsterTank.class);
 			startActivity(ex4);
 			break;
-			
+
 		case R.id.poison_img: // Open Poisonous Tank
 			Intent ex5 = new Intent(context, PoisonTank.class);
 			startActivity(ex5);
 			break;
-			
+
 		case R.id.school_img: // Open School Reef
 			Intent ex6 = new Intent(context, SchoolTank.class);
 			startActivity(ex6);
 			break;
-			
+
 		case R.id.cave_img: // Open Cave Tank
 			Intent ex7 = new Intent(context, BlindCaveTank.class);
 			startActivity(ex7);
 			break;
+
+		case R.id.back_btn:
+			Intent intent = new Intent();
+			ComponentName cName = new ComponentName(
+					"edu.fau.mods.modsapp",
+					"edu.fau.mods.modsapp.EcoscapeActivity");
+
+			intent.setComponent(cName);
+			startActivity(intent);
 		}
 
 	}
