@@ -1,8 +1,8 @@
-package edu.fau.group6.ecoscapes.aquarium.poisontank;
+package edu.fau.group6.ecoscapes.aquarium;
 
 import android.app.ActionBar;
-import android.app.AlertDialog;
 import android.app.ActionBar.Tab;
+import android.app.AlertDialog;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,20 +10,18 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
-import edu.fau.group6.ecoscapes.aquarium.R;
-import edu.fau.group6.ecoscapes.aquarium.adapters.PoisonViewAdapter;
+import edu.fau.group6.ecoscapes.aquarium.adapters.LobsterViewAdapter;
 
-public class PoisonTank extends FragmentActivity implements
+public class LobsterTank extends FragmentActivity implements
 		ActionBar.TabListener {
 
 	private ViewPager viewPager;
-	private PoisonViewAdapter mAdapter;
+	private LobsterViewAdapter mAdapter;
 	private ActionBar actionBar;
 	Context context = this;
 	
 	// Tab titles
-	private String[] tabs = { "Scorpionfish", "Balloonfish", "Toad Fish", "Striped Burrfish", "Horse Conch" };
+	private String[] tabs = { "Slipper Lobster", "Spiny Lobster" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +31,7 @@ public class PoisonTank extends FragmentActivity implements
 		// Initilization
 		viewPager = (ViewPager) findViewById(R.id.view_pager);
 		actionBar = getActionBar();
-		mAdapter = new PoisonViewAdapter(getSupportFragmentManager());
+		mAdapter = new LobsterViewAdapter(getSupportFragmentManager());
 
 		viewPager.setAdapter(mAdapter);
 		actionBar.setHomeButtonEnabled(false);
@@ -44,26 +42,26 @@ public class PoisonTank extends FragmentActivity implements
 			actionBar.addTab(actionBar.newTab().setText(tab_name)
 					.setTabListener(this));
 		}
-		
+
 		viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-		 
-		    @Override
-		    public void onPageSelected(int position) {
-		        // on changing the page
-		        // make respected tab selected
-		        actionBar.setSelectedNavigationItem(position);
-		    }
-		 
-		    @Override
-		    public void onPageScrolled(int arg0, float arg1, int arg2) {
-		    }
-		 
-		    @Override
-		    public void onPageScrollStateChanged(int arg0) {
-		    }
+
+			@Override
+			public void onPageSelected(int position) {
+				// on changing the page
+				// make respected tab selected
+				actionBar.setSelectedNavigationItem(position);
+			}
+
+			@Override
+			public void onPageScrolled(int arg0, float arg1, int arg2) {
+			}
+
+			@Override
+			public void onPageScrollStateChanged(int arg0) {
+			}
 		});
 	}
-
+	
 	@Override
 	public void onTabReselected(Tab tab, FragmentTransaction ft) {
 	}
@@ -103,22 +101,13 @@ public class PoisonTank extends FragmentActivity implements
 
 		switch (view.getId()) {
 
-		case R.id.scorpionfish_image:
-			return FishSwitcher.poisonTank[4];
-		case R.id.balloonfish_image:
-			return FishSwitcher.poisonTank[0];
-		case R.id.toadfish_image:
-			return FishSwitcher.poisonTank[2];
-		case R.id.burrfish_image:
-			return FishSwitcher.poisonTank[1];
-		case R.id.horseconch_image:
-			return FishSwitcher.poisonTank[3];
+		case R.id.slipperlobster_image:
+			return FishSwitcher.otherTank[0];
+		case R.id.spinylobster_image:
+			return FishSwitcher.sharkTank[2];
 		}
 
 		return "No such Fish";
 	}
 
 }
-
-
-

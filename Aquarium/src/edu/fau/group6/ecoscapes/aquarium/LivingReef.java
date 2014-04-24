@@ -1,4 +1,4 @@
-package edu.fau.group6.ecoscapes.aquarium.livingreef;
+package edu.fau.group6.ecoscapes.aquarium;
 
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
@@ -10,8 +10,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
-import edu.fau.group6.ecoscapes.aquarium.R;
 import edu.fau.group6.ecoscapes.aquarium.adapters.LivingViewAdapter;
 
 public class LivingReef extends FragmentActivity implements
@@ -33,7 +31,7 @@ public class LivingReef extends FragmentActivity implements
 	protected void onCreate(Bundle savedInstanceState) { 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.viewpager);
-
+		
 		// Initilization
 		viewPager = (ViewPager) findViewById(R.id.view_pager);
 		actionBar = getActionBar();
@@ -67,7 +65,7 @@ public class LivingReef extends FragmentActivity implements
 			}
 		});
 	}
-
+	
 	@Override
 	public void onTabReselected(Tab tab, FragmentTransaction ft) {
 	}

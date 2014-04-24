@@ -1,4 +1,4 @@
-package edu.fau.group6.ecoscapes.aquarium.blindcave;
+package edu.fau.group6.ecoscapes.aquarium;
 
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
@@ -10,29 +10,31 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
-import edu.fau.group6.ecoscapes.aquarium.R;
-import edu.fau.group6.ecoscapes.aquarium.adapters.BlindCaveViewAdapter;
+import edu.fau.group6.ecoscapes.aquarium.adapters.ArtificialViewAdapter;
 
-public class BlindCaveTank extends FragmentActivity implements
+public class ArtificialReef extends FragmentActivity implements
 		ActionBar.TabListener {
 
 	private ViewPager viewPager;
-	private BlindCaveViewAdapter mAdapter;
+	private ArtificialViewAdapter mAdapter;
 	private ActionBar actionBar;
 	Context context = this;
+	
 	// Tab titles
-	private String[] tabs = { "Blind Cavefish" };
+	private String[] tabs = { "Sergeant Major", "Porkfish", "Blue Tang",
+			"Spanish Hogfish", "Cuban Hogfish", "Blue Chromis", "Slippery Dick",
+			"Clown Wrasse", "Yellow Wrasse", "Turbo Snail",
+			"Bicolor Damsel", "Blue Wrasse"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.viewpager);
-
+		
 		// Initilization
 		viewPager = (ViewPager) findViewById(R.id.view_pager);
 		actionBar = getActionBar();
-		mAdapter = new BlindCaveViewAdapter(getSupportFragmentManager());
+		mAdapter = new ArtificialViewAdapter(getSupportFragmentManager());
 
 		viewPager.setAdapter(mAdapter);
 		actionBar.setHomeButtonEnabled(false);
@@ -85,10 +87,8 @@ public class BlindCaveTank extends FragmentActivity implements
 		// Set the title
 		alertDialogBuilder.setTitle("Did You Know?");
 
-		alertDialogBuilder
-			.setMessage(FishSwitcher.otherTank[4])
-			.setCancelable(false)	
-			.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+		alertDialogBuilder.setMessage(fishSwitcher(v)).setCancelable(false)
+				.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
 						dialog.cancel();
 					}
@@ -97,6 +97,40 @@ public class BlindCaveTank extends FragmentActivity implements
 		AlertDialog alertDialog = alertDialogBuilder.create();
 		alertDialog.show();
 
+	}
+
+	public String fishSwitcher(View v) {
+		View view = v;
+
+		switch (view.getId()) {
+
+		case R.id.sergeantmajor_image:
+			return FishSwitcher.artificialReef[0];
+		case R.id.porkfish_image:
+			return FishSwitcher.livingReef[3];
+		case R.id.bluetang_image:
+			return FishSwitcher.livingReef[0];
+		case R.id.shogfish_image:
+			return FishSwitcher.artificialReef[1];
+		case R.id.chogfish_image:
+			return FishSwitcher.artificialReef[2];
+		case R.id.chromis_image:
+			return FishSwitcher.artificialReef[3];
+		case R.id.slipperydick_image:
+			return FishSwitcher.livingReef[7];
+		case R.id.clownwrasse_image:
+			return FishSwitcher.artificialReef[4];
+		case R.id.yellowhead_image:
+			return FishSwitcher.livingReef[8];
+		case R.id.turbosnail_image:
+			return FishSwitcher.livingReef[9];
+		case R.id.damsel_image:
+			return FishSwitcher.artificialReef[5];
+		case R.id.bluehead_image:
+			return FishSwitcher.livingReef[15];
+		}
+
+		return "No such Fish";
 	}
 
 }

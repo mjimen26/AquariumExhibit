@@ -6,13 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import edu.fau.group6.ecoscapes.aquarium.artificialreef.ArtificialReef;
-import edu.fau.group6.ecoscapes.aquarium.blindcave.BlindCaveTank;
-import edu.fau.group6.ecoscapes.aquarium.livingreef.LivingReef;
-import edu.fau.group6.ecoscapes.aquarium.lobstertank.LobsterTank;
-import edu.fau.group6.ecoscapes.aquarium.poisontank.PoisonTank;
-import edu.fau.group6.ecoscapes.aquarium.schooltank.SchoolTank;
-import edu.fau.group6.ecoscapes.aquarium.sharktank.SharkTank;
 
 /**
  * TankActivity is the launcher activity for the aquarium It contains ImageViews

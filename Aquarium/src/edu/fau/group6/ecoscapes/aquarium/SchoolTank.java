@@ -1,8 +1,8 @@
-package edu.fau.group6.ecoscapes.aquarium.schooltank;
+package edu.fau.group6.ecoscapes.aquarium;
 
 import android.app.ActionBar;
-import android.app.AlertDialog;
 import android.app.ActionBar.Tab;
+import android.app.AlertDialog;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,8 +10,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import edu.fau.group6.ecoscapes.aquarium.FishSwitcher;
-import edu.fau.group6.ecoscapes.aquarium.R;
 import edu.fau.group6.ecoscapes.aquarium.adapters.SchoolViewAdapter;
 
 public class SchoolTank extends FragmentActivity implements

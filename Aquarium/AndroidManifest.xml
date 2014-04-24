@@ -17,41 +17,69 @@
             android:name="edu.fau.group6.ecoscapes.aquarium.TankActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />	
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
-                 
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.sharktank.SharkTank"
-            android:label="@string/title_activity_shark_tank" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.SharkTank"
+            android:label="@string/title_activity_shark_tank"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.lobstertank.LobsterTank"
-            android:label="@string/title_activity_lobster_tank" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.LobsterTank"
+            android:label="@string/title_activity_lobster_tank"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.poisontank.PoisonTank"
-            android:label="@string/title_activity_poison_tank" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.PoisonTank"
+            android:label="@string/title_activity_poison_tank"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.schooltank.SchoolTank"
-            android:label="@string/title_activity_school_tank" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.SchoolTank"
+            android:label="@string/title_activity_school_tank"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.livingreef.LivingReef"
-            android:label="@string/title_activity_living_reef" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.LivingReef"
+            android:label="@string/title_activity_living_reef"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.artificialreef.ArtificialReef"
-            android:label="@string/title_activity_artificial_reef" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.ArtificialReef"
+            android:label="@string/title_activity_artificial_reef"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="edu.fau.group6.ecoscapes.aquarium.blindcave.BlindCaveTank"
-            android:label="@string/title_activity_blind_cave_tank" >
+            android:name="edu.fau.group6.ecoscapes.aquarium.BlindCaveTank"
+            android:label="@string/title_activity_blind_cave_tank"
+            android:parentActivityName="edu.fau.group6.ecoscapes.aquarium.TankActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
         </activity>
 
-        <receiver android:name="MyReceiver">
+        <receiver android:name="AquariumReceiver" >
             <intent-filter>
                 <action android:name="mods.ecoscapes.AQUARIUM_INTENT" >
                 </action>
