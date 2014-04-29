@@ -79,12 +79,19 @@
                 android:value="com.example.myfirstapp.MainActivity" />
         </activity>
 
-        <receiver android:name="AquariumReceiver" >
+        <receiver android:name="AquariumReceiver">
             <intent-filter>
-                <action android:name="mods.ecoscapes.AQUARIUM_INTENT" >
-                </action>
+                <action android:name="mods.ecoscapes.AQUARIUM_INTENT"></action>
+                <action android:name="mods.ecoscapes.SHARK_INTENT" ></action>
+                <action android:name="mods.ecoscapes.LOBSTER_INTENT"></action>
+                <action android:name="mods.ecoscapes.POISON_INTENT"></action>
+                <action android:name="mods.ecoscapes.SCHOOL_INTENT"></action>
+                <action android:name="mods.ecoscapes.ARTIFICIAL_INTENT"></action>
+                <action android:name="mods.ecoscapes.LIVING_INTENT"></action>
+                <action android:name="mods.ecoscapes.BLIND_INTENT"></action>
             </intent-filter>
         </receiver>
+       
     </application>
 
 </manifest>

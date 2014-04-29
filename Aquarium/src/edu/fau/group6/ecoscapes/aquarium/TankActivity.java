@@ -1,7 +1,6 @@
 package edu.fau.group6.ecoscapes.aquarium;
 
 import android.app.Activity;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -60,14 +59,13 @@ public class TankActivity extends Activity {
 			startActivity(ex7);
 			break;
 
-		case R.id.back_btn:
+		/*case R.id.back_btn:
 			Intent intent = new Intent();
-			ComponentName cName = new ComponentName(
-					"edu.fau.mods.modsapp",
+			ComponentName cName = new ComponentName("edu.fau.mods.modsapp",
 					"edu.fau.mods.modsapp.EcoscapeActivity");
 
 			intent.setComponent(cName);
-			startActivity(intent);
+			startActivity(intent);*/
 		}
 
 	}
