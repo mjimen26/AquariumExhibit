@@ -11,7 +11,7 @@ public class FishSwitcher {
 		"-It is recomended to keep one male Pygmy Angelfish at most since they may fight to death",
 		"-Fairy Basslets are often seen swimming upside-down under ledges and overhangs",
 		"-Nobody has an idea how the Slippery Dick got its name, but some believe it is because of its body shape and texture",
-		"-Most Yellowhead Wrasse are observed to bully Yellowhead Jawfishes by coming inside their burrows and harrsing them",
+		"-Most Yellowhead Wrasse are observed to bully Yellowhead Jawfishes by coming inside their burrows and harassing them",
 		"-Turbo Snails are not harvested from July-September due to the hot climate in Mexico. However, Margarita Snails serve as a substitue during those months",
 		"-Pincushion Urchins sold at pet stores often come in very vibrant colors of purple, turquoise, and pink",
 		"-Red Serpent Stars are very sensitve of the water chemistry. They cannot tolerate sudden changes in oxygen levels, salinity, and pH levels",

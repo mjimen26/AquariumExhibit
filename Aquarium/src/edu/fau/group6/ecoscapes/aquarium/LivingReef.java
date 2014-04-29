@@ -21,8 +21,8 @@ public class LivingReef extends FragmentActivity implements
 	Context context = this;
 
 	// Tab titles
-	private String[] tabs = { "Blue Tang", "Doctorfish", "Hawkfish",
-			"Porkfish", "Flamefish", "Angelfish", "Fairy Basslet",
+	private String[] tabs = { "Blue Tang", "Porkfish", "Hawkfish",
+			"Doctorfish", "Flamefish", "Angelfish", "Fairy Basslet",
 			"Slippery Dick", "Yellow Wrasse", "Turbo Snail", "Pincushion",
 			"Serpent Star", "Orange Back", "Saddle Bass", "Harlequin",
 			"Blue Wrasse" };

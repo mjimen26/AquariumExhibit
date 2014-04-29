@@ -4,36 +4,43 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="@string/damsel"
-        android:textSize="32sp" />
-
     <ImageView
         android:id="@+id/damsel_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/damsel"
-        android:src="@drawable/bicolordamsel"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:src="@drawable/bicolordamsel" />
+
+    <TextView
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:background="#A60066cc"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/damsel"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="398dp"
         android:layout_height="223dp"
         android:layout_gravity="center"
+        android:background="#B3000000"
         android:fillViewport="true" >
 
         <TextView
-            android:layout_width="345dp"
+            android:layout_width="367dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="@string/damsel_desc"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
     </ScrollView>
 

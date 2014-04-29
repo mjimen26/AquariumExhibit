@@ -33,11 +33,11 @@ public class LivingViewAdapter extends FragmentPagerAdapter {
 		case 0:
 			return new BlueTang();
 		case 1:
-			return new Doctorfish();
+			return new Porkfish();
 		case 2:
 			return new Hawkfish();
 		case 3:
-			return new Porkfish();
+			return new Doctorfish();
 		case 4:
 			return new Flamefish();
 		case 5:

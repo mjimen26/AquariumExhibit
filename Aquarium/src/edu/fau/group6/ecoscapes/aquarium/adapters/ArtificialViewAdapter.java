@@ -27,17 +27,17 @@ public class ArtificialViewAdapter extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-			return new SergeantMajor();
-		case 1:
 			return new Porkfish();
-		case 2:
+		case 1:
 			return new BlueTang();
+		case 2:
+			return new BlueChromis();
 		case 3:
 			return new SpanishHogfish();
 		case 4:
 			return new CubanHogfish();
 		case 5:
-			return new BlueChromis();
+			return new SergeantMajor();
 		case 6:
 			return new SlipperyDick();
 		case 7:

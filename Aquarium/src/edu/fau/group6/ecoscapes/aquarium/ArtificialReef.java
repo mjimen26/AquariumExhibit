@@ -21,8 +21,8 @@ public class ArtificialReef extends FragmentActivity implements
 	Context context = this;
 	
 	// Tab titles
-	private String[] tabs = { "Sergeant Major", "Porkfish", "Blue Tang",
-			"Spanish Hogfish", "Cuban Hogfish", "Blue Chromis", "Slippery Dick",
+	private String[] tabs = { "Porkfish",  "Blue Tang",  "Blue Chromis",
+			"Spanish Hogfish", "Cuban Hogfish",  "Sergeant Major", "Slippery Dick",
 			"Clown Wrasse", "Yellow Wrasse", "Turbo Snail",
 			"Bicolor Damsel", "Blue Wrasse"};
 

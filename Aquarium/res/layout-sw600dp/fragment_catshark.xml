@@ -29,7 +29,7 @@
         android:layout_width="398dp"
         android:layout_height="223dp"
         android:layout_gravity="center"
-        android:background="#73000000"
+        android:background="#B3000000"
         android:fillViewport="true" >
 
         <TextView

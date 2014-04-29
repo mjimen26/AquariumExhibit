@@ -17,9 +17,9 @@ public class LobsterViewAdapter extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-			return new SlipperLobster();
-		case 1:
 			return new SpinyLobster();
+		case 1:
+			return new SlipperLobster();
 		}
 
 		return null;

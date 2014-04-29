@@ -9,6 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/hawkfish"
         android:onClick="onClick"
         android:src="@drawable/hawkfish" />
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="#A60066cc"
+        android:layout_marginTop="150dp"
         android:gravity="center"
         android:padding="8dp"
         android:text="@string/hawkfish"
@@ -29,7 +31,7 @@
         android:layout_width="398dp"
         android:layout_height="223dp"
         android:layout_gravity="center"
-        android:background="#73000000"
+        android:background="#B3000000"
         android:fillViewport="true" >
 
         <TextView

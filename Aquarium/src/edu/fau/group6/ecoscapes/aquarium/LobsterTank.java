@@ -21,7 +21,7 @@ public class LobsterTank extends FragmentActivity implements
 	Context context = this;
 	
 	// Tab titles
-	private String[] tabs = { "Slipper Lobster", "Spiny Lobster" };
+	private String[] tabs = { "Spiny Lobster", "Slipper Lobster" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
