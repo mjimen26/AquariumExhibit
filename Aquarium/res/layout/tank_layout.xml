@@ -156,16 +156,14 @@
         android:onClick="onClick"
         android:src="@drawable/button" />
 
-    <Button
-        android:id="@+id/back_btn"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView1"
-        android:layout_marginBottom="87dp"
-        android:onClick="onClick"
-        android:text="@string/back"
-        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ecomap"
+        android:textSize="48sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
